@@ -1,12 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: #fbf8f0;
+    margin:0;
 }
 nav{
 
     background-color: #e9d17f;
-
+    width: 100%;
     height: 100px;
+    position: fixed;
+
 
 }
 nav ul {
@@ -18,8 +24,6 @@ nav ul {
 nav ul li{
     list-style-type: none;
     margin-right: 3px;
-
-    padding: 0;
     display: inline;
     letter-spacing: 1.1px;
     padding: 5px;
@@ -98,10 +102,21 @@ iframe {
 
     float: right;
     margin-right: 50px;
+    margin-top: 100px;
 
 }
 .images {
-    width: 100%
+    display: flex;
+
+
+
+}
+.photo-container {
+    background-color: #e8b481;
+    height: 800px;
+    width: 100%;
+
+
 }
 
 .footer {
@@ -118,4 +133,28 @@ button {
     background-color: #e8b481;
     color: white;
     margin-top: 30px;
+    border: none;
+}
+div.gallery {
+
+    margin-top: 40px;
+    margin-left: 40px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 450px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Glacial Indifference', sans-serif;
 }
