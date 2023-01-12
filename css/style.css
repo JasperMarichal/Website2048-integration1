@@ -134,7 +134,9 @@ img {
     width: 300px;
     height: 250px;
 }
-
+.profile{
+    height: 350px;
+}
 /*Some personal rules for different pages*/
 .downloadpage {
     width: 50%;
